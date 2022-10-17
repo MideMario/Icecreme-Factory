@@ -5,29 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Icecreme Factory</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="nav-text">
-        <h1 style="font-size: 1rem">
+    <nav>
+      <div class="logo">
+        <h1>
           Icecreme <br />
-          Factory
+          <span>Factory</span>
         </h1>
       </div>
       <div class="nav-icons">
         <a href="#"
-          ><img src="./assets/shopping-cart.png" alt="cart" style="width: 2rem"
+          ><img src="./assets/shopping-cart.png" alt="cart" id="cart"
         /></a>
-        <a href="#"
-          ><img src="./assets/menu.png" alt="" style="width: 2rem"
-        /></a>
+        <a href="#"><img src="./assets/menu.png" alt="" id="nav-icon" /></a>
       </div>
-    </header>
+    </nav>
     <section class="nav-dropdown" style="display: none">
       <a href="#">Home</a>
       <a href="#">Packaging Supplies</a>
       <a href="#">Organic Powders</a>
       <a href="#">Organic Oils</a>
+    </section>
+    <section class="prod-card-gradients">
+      <div id="packaging">
+        <h1>Packaging Supplies</h1>
+        <p><a href="">SHOP NOW</a></p>
+      </div>
+      <div id="powders">
+        <h1>Organic Powder</h1>
+        <p><a href="">SHOP NOW</a></p>
+      </div>
+      <div id="oils">
+        <h1>Organic Oils</h1>
+        <p><a href="">SHOP NOW</a></p>
+      </div>
     </section>
     <section class="product-cards">
       <div class="packaging">
@@ -47,33 +60,35 @@
         <h2>Organic oils</h2>
       </div>
     </section>
-    <section class="about">
-      <div><img src="./assets/donut1.jpg" alt="" style="width: 10rem" /></div>
-      <div>
-        <h2>ABOUT US</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam natus
-          deserunt beatae cum modi odit provident illo quibusdam veniam illum in
-          alias, voluptates quos quasi, tempora numquam adipisci minus hic!
-          Doloribus vero maxime eaque. Reprehenderit deserunt provident,
-          laboriosam vitae ea ratione dolores repudiandae sunt repellendus? Id
-          aut eligendi enim ex?
-        </p>
-      </div>
-    </section>
-    <section class="contact">
-      <div>
-        <h2>CONTACT US</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          mollitia soluta nulla doloremque dolor illo dicta quisquam voluptatem
-          sequi, earum laboriosam autem omnis odio nesciunt dolores rerum fugit
-          aliquid vel ducimus animi obcaecati accusantium molestias consequatur
-          excepturi! Inventore, nulla placeat accusamus, odit nobis nisi sed
-          dicta laboriosam voluptatum incidunt itaque.
-        </p>
+    <section class="cta">
+      <section class="about">
+        <div><img src="./assets/donut1.jpg" alt="" style="width: 10rem" /></div>
+        <div>
+          <h2>ABOUT US</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam natus
+            deserunt beatae cum modi odit provident illo quibusdam veniam illum
+            in alias, voluptates quos quasi, tempora numquam adipisci minus hic!
+            Doloribus vero maxime eaque. Reprehenderit deserunt provident,
+            laboriosam vitae ea ratione dolores repudiandae sunt repellendus? Id
+            aut eligendi enim ex?
+          </p>
+        </div>
+      </section>
+      <section class="contact">
         <div><img src="./assets/donut2.jpg" alt="" style="width: 10rem" /></div>
-      </div>
+        <div class="contact-texts">
+          <h2>CONTACT US</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            mollitia soluta nulla doloremque dolor illo dicta quisquam
+            voluptatem sequi, earum laboriosam autem omnis odio nesciunt dolores
+            rerum fugit aliquid vel ducimus animi obcaecati accusantium
+            molestias consequatur excepturi! Inventore, nulla placeat accusamus,
+            odit nobis nisi sed dicta laboriosam voluptatum incidunt itaque.
+          </p>
+        </div>
+      </section>
     </section>
     <footer>
       <h3>Connect with us:</h3>

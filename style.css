@@ -5,19 +5,202 @@
 }
 
 body{
-    background-color: cornsilk;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, LightYellow,Linen, MintCream);
+    
 }
 
-.header{
-   display: block ;
-   background-color: palevioletred;
-}
-
-header, h1{
+nav{
     display: flex;
+    width: 100%;
+    justify-content: center;
     justify-content: space-between;
+    height: 8vh;
 }
 
+.logo h1{
+    font-size: .8rem;
+}
+.logo h1[--nth-word="2"] {
+    background-color: hotpink;
+}
+.nav-icons{
+  /* display: flex; */
+  float: right;
+ align-items: center;
+margin-bottom: 5rem;
+padding-right: 1rem;
+padding-top: 1rem;
+}
+
+.nav-icons a{
+    padding: .5rem;
+}
+.nav-icons img{
+    width: 1.2rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    padding-top: .8rem;
+    padding-left: 1rem;
+}
+
+.logo span{
+    color: hotpink;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+ .powders{
+    margin: 6rem;
+}
+.packaging {
+    margin: 6rem;
+}
+.oils{
+    margin: 6rem;
+}
+.product-cards{
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+
+p{
+width: 50%;
+text-align: center;
+justify-content: center;
+margin: auto;}
+
+footer{
+    background-color: wheat;
+}
+
+.icons a{
+    padding:0rem .5rem 0rem .5rem;
+}
+
+.about{
+    margin: 2rem;
+}
+
+.contact{
+    margin: 2rem;
+}
+
+
+.prod-card-gradients{
+   align-items: center;
+   margin: auto;
+   position: absolute;
+   margin-top: 8rem;
+}
+
+.prod-card-gradients div{
+padding: 8rem 5rem;
+text-align: center;
+background-color: white;
+margin: 3rem;
+background-image: linear-gradient(to right, DeepPink, HotPink, LightPink);
+border-radius: 10px;
+}
+
+*packaging{padding: 8rem 5rem;
+    text-align: center;
+    background-color: white;
+    margin: 3rem;
+    background-image: linear-gradient(to right, DeepPink, HotPink, LightPink);
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+*powders{padding: 8rem 5rem;
+    text-align: center;
+    background-color: white;
+    margin: 3rem;
+    background-image: linear-gradient(to right, DeepPink, HotPink, LightPink);
+    border-radius: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+*powders:hover{
+    transform: rotateY(180deg);
+}
+
+*oils{padding: 8rem 5rem;
+    text-align: center;
+    background-color: white;
+    margin: 3rem;
+    background-image: linear-gradient(to right, DeepPink, HotPink, LightPink);
+    border-radius: 10px;
+    transition: 0.6s;}
+
+.prod-card-gradients a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.prod-card-gradients p{
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    width: 100%;
+    margin: 1rem 0rem;
+}
+@media (min-width: 1024px) {
+    nav{
+        height: 10vh;
+    }
+  .logo h1{
+        font-size: 1.2rem;
+    }
+
+.nav-icons img{
+    width: 2rem;
+}
 .product-cards{
     display: flex;
+}
+.packaging{
+    padding-top: 2.8rem;
+}
+.oils{
+    padding-top: 4.5rem;
+}
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    width:80% ;
+    margin-top: 3rem;
+}
+.about p{width: 50%;
+margin: auto;
+margin-top: auto;
+text-align: center;
+}
+.contact{
+    display: flex;
+    width: 80% ;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+}
+.contact p{
+    width: 50%;
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+}
+.prod-card-gradients{
+    display: flex;
+}
+
 }
